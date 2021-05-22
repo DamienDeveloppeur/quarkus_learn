@@ -13,35 +13,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-reactive-pg-client:1.13.4.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-reactive-datasource:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-arc:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-datasource:1.13.4.Final" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-sql-client:3.9.6" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-core:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-netty:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.49.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.49.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-jackson:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.3" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-annotation:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-mutiny:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.reactive:mutiny:0.14.0" level="project" />
-    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-context-propagation:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye:smallrye-context-propagation:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye:smallrye-context-propagation-api:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye:smallrye-context-propagation-storage:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.reactive:mutiny-smallrye-context-propagation:0.14.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-mutiny-vertx-core:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-mutiny-vertx-runtime:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.reactive:vertx-mutiny-generator:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-codegen:3.9.6" level="project" />
-    <orderEntry type="library" name="Maven: org.mvel:mvel2:2.3.1.Final" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-pg-client:3.9.6" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-core:3.9.6" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.49.Final" level="project" />
@@ -69,7 +42,6 @@
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.resteasy.reactive:resteasy-reactive-vertx:1.13.4.Final" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-web:3.9.6" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-web-common:3.9.6" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-auth-common:3.9.6" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-bridge-common:3.9.6" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.resteasy.reactive:resteasy-reactive:1.13.4.Final" level="project" />
@@ -195,5 +167,36 @@
     <orderEntry type="library" scope="TEST" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-arc:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-netty:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.49.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.49.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-jackson:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-core:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-annotation:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-mutiny:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.reactive:mutiny:0.14.0" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-context-propagation:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-context-propagation:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-context-propagation-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-context-propagation-storage:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.reactive:mutiny-smallrye-context-propagation:0.14.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-mutiny-vertx-core:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-mutiny-vertx-runtime:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.reactive:vertx-mutiny-generator:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-codegen:3.9.6" level="project" />
+    <orderEntry type="library" name="Maven: org.mvel:mvel2:2.3.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web-client:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-web-client:3.9.6" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-web-common:3.9.6" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web-common:1.5.0" level="project" />
   </component>
 </module>
