@@ -1,4 +1,4 @@
-package org.acme.reactive.crud;
+package org.acme.client;
 
 import io.quarkus.runtime.StartupEvent;
 import io.vertx.mutiny.pgclient.PgPool;
@@ -25,12 +25,12 @@ public class DBInit {
     }
 
     private void initdb() {
-        client.query("DROP TABLE IF EXISTS fruits").execute()
-                .flatMap(r -> client.query("CREATE TABLE fruits (id SERIAL PRIMARY KEY, name TEXT NOT NULL)").execute())
-                .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('Kiwi')").execute())
-                .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('Durian')").execute())
-                .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('Pomelo')").execute())
-                .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('BAOUAIS')").execute())
+        client.query("DROP TABLE IF EXISTS users").execute()
+                .flatMap(r -> client.query("CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT NOT NULL, age INT)").execute())
+                .flatMap(r -> client.query("INSERT INTO users (name, age) VALUES ('Mero', 28)").execute())
+                .flatMap(r -> client.query("INSERT INTO users (name) VALUES ('Olga')").execute())
+                .flatMap(r -> client.query("INSERT INTO users (name) VALUES ('Mathieu')").execute())
+                .flatMap(r -> client.query("INSERT INTO users (name) VALUES ('Anaïs')").execute())
                 .await().indefinitely();
     }
 }

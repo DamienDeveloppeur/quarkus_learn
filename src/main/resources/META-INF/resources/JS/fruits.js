@@ -1,4 +1,5 @@
 function refresh() {
+    console.log("ok");
     $.get('/fruits', function (fruits) {
         var list = '';
         (fruits || []).forEach(function (fruit) {

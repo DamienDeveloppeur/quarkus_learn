@@ -14,9 +14,6 @@ import org.reactivestreams.Publisher;
 @Path("/mathieu-number-one")
 public class ReactiveGreetingResource {
 
-    @ConfigProperty(name = "TOAST")
-    String name;
-
     @Inject
     ReactiveGreetingService service;
 
@@ -30,7 +27,7 @@ public class ReactiveGreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return name;
+        return "HEY";
     }
 
     @GET
