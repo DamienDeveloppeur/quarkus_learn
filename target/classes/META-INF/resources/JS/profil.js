@@ -1,5 +1,7 @@
+console.log("HOHEY MATHIEU");
 function refresh() {
-    $.get('/client', function (resultat) {
+    console.log("HOHEY MATHIEU");
+    $.get('/profil', function (resultat) {
         console.log(resultat);
         var list = '';
         (resultat || []).forEach(function (fruit) {
@@ -21,3 +23,7 @@ function refresh() {
         $('#all-resultat').html(list);
     });
 }
+
+$(document).ready(function () {
+    refresh();
+});

@@ -28,9 +28,9 @@ public class DBInit {
         client.query("DROP TABLE IF EXISTS users").execute()
                 .flatMap(r -> client.query("CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT NOT NULL, age INT)").execute())
                 .flatMap(r -> client.query("INSERT INTO users (name, age) VALUES ('Mero', 28)").execute())
-                .flatMap(r -> client.query("INSERT INTO users (name) VALUES ('Olga')").execute())
-                .flatMap(r -> client.query("INSERT INTO users (name) VALUES ('Mathieu')").execute())
-                .flatMap(r -> client.query("INSERT INTO users (name) VALUES ('Anaïs')").execute())
+                .flatMap(r -> client.query("INSERT INTO users (name, age) VALUES ('Olga', 30)").execute())
+                .flatMap(r -> client.query("INSERT INTO users (name, age) VALUES ('Mathieu', 39)").execute())
+                .flatMap(r -> client.query("INSERT INTO users (name, age) VALUES ('Anaïs',35)").execute())
                 .await().indefinitely();
     }
 }

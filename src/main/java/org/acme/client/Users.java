@@ -7,15 +7,12 @@ import io.vertx.mutiny.sqlclient.Row;
 import io.vertx.mutiny.sqlclient.RowSet;
 import io.vertx.mutiny.sqlclient.Tuple;
 
-
 public class Users {
     public Long id;
 
     public String name;
 
     public long age;
-
-
 
     public Users() {
         // default constructor.
@@ -32,7 +29,7 @@ public class Users {
 
     }
     public static Multi<Users> findAll(PgPool client) {
-        return client.query("SELECT id, name FROM users ORDER BY name ASC").execute()
+        return client.query("SELECT id, name, age FROM users ORDER BY name ASC").execute()
                 .onItem().transformToMulti(set -> Multi.createFrom().iterable(set))
                 .onItem().transform(Users::from);
     }
