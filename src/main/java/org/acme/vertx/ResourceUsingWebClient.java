@@ -3,7 +3,9 @@ package org.acme.vertx;
 import io.smallrye.mutiny.Uni;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.client.WebClientOptions;
+//The injected Vert.x instance has the io.vertx.mutiny.core.Vertx type which is the Mutiny variant of Vert.x;
 import io.vertx.mutiny.core.Vertx;
+//The Web Client is created from io.vertx.mutiny.ext.web.client.WebClient.
 import io.vertx.mutiny.ext.web.client.WebClient;
 
 import javax.ws.rs.GET;

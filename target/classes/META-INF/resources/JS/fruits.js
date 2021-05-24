@@ -27,7 +27,6 @@ function deleteFruit(id) {
 
 
 $(document).ready(function () {
-
     $('#create-fruit-button').click(function () {
         var fruitName = $('#fruit-name').val();
         $.post({
@@ -36,6 +35,5 @@ $(document).ready(function () {
             data: JSON.stringify({name: fruitName})
         }).then(refresh);
     });
-
     refresh();
 });

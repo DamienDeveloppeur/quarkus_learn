@@ -30,7 +30,7 @@ public class DBInit {
                 .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('Kiwi')").execute())
                 .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('Durian')").execute())
                 .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('Pomelo')").execute())
-                .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('Lychee')").execute())
+                .flatMap(r -> client.query("INSERT INTO fruits (name) VALUES ('BAOUAIS')").execute())
                 .await().indefinitely();
     }
 }

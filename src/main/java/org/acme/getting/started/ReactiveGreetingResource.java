@@ -8,10 +8,14 @@ import javax.ws.rs.core.MediaType;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.reactivestreams.Publisher;
 
 @Path("/mathieu-number-one")
 public class ReactiveGreetingResource {
+
+    @ConfigProperty(name = "TOAST")
+    String name;
 
     @Inject
     ReactiveGreetingService service;
@@ -26,7 +30,7 @@ public class ReactiveGreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Wesh help me";
+        return name;
     }
 
     @GET
