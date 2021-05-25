@@ -4,12 +4,11 @@ function refresh() {
     $.get('/profil', function (resultat) {
         console.log(resultat);
         var list = '';
-        (resultat || []).forEach(function (fruit) {
+        (resultat || []).forEach(function (user) {
             list = list
                 + '<tr>'
-                + '<td>' + fruit.id + '</td>'
-                + '<td>' + fruit.name + '</td>'
-                + '<td><a href="#" onclick="deleteFruit(' + fruit.id + ')">Delete</a></td>'
+                + '<td>' + user.id + '</td>'
+                + '<td>' + user.name + '</td>'
                 + '</tr>'
         });
         if (list.length > 0) {

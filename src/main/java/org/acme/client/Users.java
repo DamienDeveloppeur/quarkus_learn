@@ -29,7 +29,7 @@ public class Users {
 
     }
     public static Multi<Users> findAll(PgPool client) {
-        return client.query("SELECT id, name, age FROM users ORDER BY name ASC").execute()
+        return client.query("SELECT id, name, age FROM users ORDER BY id ASC").execute()
                 .onItem().transformToMulti(set -> Multi.createFrom().iterable(set))
                 .onItem().transform(Users::from);
     }
