@@ -19,7 +19,7 @@ public class UsersRessource {
     }
 
     @GET
-    public Multi get() {
+    public Multi <Users> get() {
         return Users.findAll(client);
     }
 

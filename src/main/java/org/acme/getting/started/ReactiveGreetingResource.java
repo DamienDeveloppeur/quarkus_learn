@@ -8,8 +8,6 @@ import javax.ws.rs.core.MediaType;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
-import org.eclipse.microprofile.config.inject.ConfigProperty;
-import org.reactivestreams.Publisher;
 
 @Path("/mathieu-number-one")
 public class ReactiveGreetingResource {

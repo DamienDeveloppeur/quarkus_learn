@@ -8,11 +8,35 @@ import io.vertx.mutiny.sqlclient.RowSet;
 import io.vertx.mutiny.sqlclient.Tuple;
 
 public class Users {
-    public Long id;
+    public Long getId() {
+        return id;
+    }
 
-    public String name;
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-    public long age;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getAge() {
+        return age;
+    }
+
+    public void setAge(long age) {
+        this.age = age;
+    }
+
+    private Long id;
+
+    private String name;
+
+    private long age;
 
     public Users() {
         // default constructor.

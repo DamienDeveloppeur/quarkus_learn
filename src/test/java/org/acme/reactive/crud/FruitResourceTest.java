@@ -12,7 +12,7 @@ import io.quarkus.test.junit.QuarkusTest;
 class FruitResourceTest {
 
     @Test
-    public void testListAllFruits() {
+        void testListAllFruits() {
         /*
         //List all, should have all 4 fruits the database has initially:
         given()
