@@ -1,4 +1,0 @@
-# Created at 2021-05-25T18:09:13.274
-Boot Manifest-JAR contains absolute paths in classpath 'D:\DEV_Projet_java\QUARKUS\MentoringQuarkus\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

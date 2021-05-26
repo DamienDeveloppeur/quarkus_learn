@@ -1,6 +1,0 @@
-projectKey=mentoringmbarcikowski
-serverUrl=http://localhost:9000
-serverVersion=8.9.0.43852
-dashboardUrl=http://localhost:9000/dashboard?id=mentoringmbarcikowski
-ceTaskId=AXmktA0n-FiNzl2mseMO
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXmktA0n-FiNzl2mseMO
